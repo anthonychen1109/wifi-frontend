@@ -1,0 +1,80 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./static/css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="heading"><h5>Select an existing directory or create a new directory:</h5></div>
+
+    <div class="select">
+      <div class="input-div-1">
+        <p>Select:</p>
+      </div>
+      <div>
+        <select id="selector"
+        >
+          <option value="-1">Create A New Directory</option>
+        </select>
+      </div>
+    </div>
+    <hr />
+    <div class="input">
+      <div class="input-div-1">
+        <p>Directory Name:</p>
+      </div>
+      <div class="input-div-2">
+        <input id="dir-name" value="" />
+      </div>
+    </div>
+
+    <div class="input">
+      <div class="input-div-1">
+        <p>Title:</p>
+      </div>
+      <div class="input-div-2">
+        <input id="title-name"/>
+      </div>
+    </div>
+
+    <div class="input">
+      <div class="input-div-1">
+        <p>Background:</p>
+      </div>
+      <div class="input-div-2">
+        <input id="bg-name" />
+      </div>
+    </div>
+
+    <div class="input">
+      <div class="input-div-1">
+        <p>Logo:</p>
+      </div>
+      <div class="input-div-2">
+        <input id="logo-name" />
+      </div>
+    </div>
+
+    <div class="input">
+      <div class="input-div-1">
+        <p>Landing Page:</p>
+      </div>
+      <div class="input-div-2">
+        <input id="landing-name"/>
+      </div>
+    </div>
+
+    <div class="save-button">
+      <input id="save-btn" type="submit" value="Save" class="btn btn-primary"></input>
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src='./js/select.js'></script>
+</body>
+</html>

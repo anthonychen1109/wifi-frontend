@@ -1,0 +1,40 @@
+$heading-margin: 30px;
+$input-padding: 30px;
+
+.heading {
+  margin-bottom: $heading-margin;
+  margin-top: $heading-margin;
+}
+
+.select {
+  display: flex;
+  flex-direction: row;
+  div {
+    padding: $input-padding;
+  }
+}
+
+.input {
+  display: flex;
+  div {
+    padding: $input-padding;
+  }
+}
+
+.input-div-1 {
+  min-width: 200px;
+}
+
+.input-div-2 {
+  input{
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.save-button {
+  input {
+    float: right;
+  }
+}

@@ -1,0 +1,25 @@
+.heading {
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+.select {
+  display: flex;
+  flex-direction: row; }
+  .select div {
+    padding: 30px; }
+
+.input {
+  display: flex; }
+  .input div {
+    padding: 30px; }
+
+.input-div-1 {
+  min-width: 200px; }
+
+.input-div-2 input:focus {
+  outline: none; }
+
+.save-button input {
+  float: right; }
+
+/*# sourceMappingURL=styles.css.map */
