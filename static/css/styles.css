@@ -19,6 +19,10 @@
 .input-div-2 input:focus {
   outline: none; }
 
+#bg-name {
+  height: 300px;
+  width: 500px; }
+
 .my-buttons {
   display: flex;
   justify-content: flex-end; }

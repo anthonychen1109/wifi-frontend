@@ -114,18 +114,3 @@ function updateId(name, title, background, logo, landingpage, portal_id){
     console.log(data);
   }, "json");
 }
-
-// $('#update-btn').click(function() {
-//   let portal_id = $('#selector').val();
-//   let name = $('#dir-name').val();
-//   let title = $('#title-name').val();
-//   let background = $('#bg-name').val();
-//   let logo = $('#logo-name').val();
-//   let landingpage = $('#landing-name').val();
-//   if (portal_id > 0 && portal_id != '') {
-//     updateId(name, title, background, logo, landingpage, portal_id);
-//     location.reload();
-//   } else {
-//     console.log('do nothing');
-//   }
-// });
