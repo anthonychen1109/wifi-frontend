@@ -19,7 +19,16 @@
 .input-div-2 input:focus {
   outline: none; }
 
-.save-button input {
-  float: right; }
+.my-buttons {
+  display: flex;
+  justify-content: flex-end; }
+  .my-buttons input {
+    margin: 5px; }
+
+#delete-btn {
+  display: none; }
+
+.show {
+  display: block !important; }
 
 /*# sourceMappingURL=styles.css.map */
